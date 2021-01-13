@@ -1,4 +1,3 @@
-// let strs = ["flower","flow","flight"];
 // let strs = ["a"];
 // let strs = ["dog","racecar","car"];
 // let strs = ["reflower","flow","flight"];
@@ -6,6 +5,8 @@
 // let strs = ["ca","c","bba","bacb","bcb"];
 // let strs = ["acc","aaa","aaba"];
 // let strs = ["ab", "a"];
+let strs = ["flower","flow","flight"];
+
 // var longestCommonPrefix = function(strs){
 //     strs.sort();
 //     console.log(strs);
@@ -19,7 +20,6 @@
 //                 if( current[j][i] == next[j][i] ){
 //                     console.log(current[j][i]);
 //                     console.log(next[j][i]);
-//                     debugger;
 //                 }
 //             }
 //             j++;
