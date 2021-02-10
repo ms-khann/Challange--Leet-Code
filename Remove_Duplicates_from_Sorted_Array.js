@@ -12,11 +12,7 @@ var removeDuplicates = function(nums) {
         }
         previous = current;
     }
-    if(slice){
-        for(let i=0;i<num_len;i++){
-            nums.shift();
-        }
-    }
+    nums.splice(0,num_len);
     return nums.length;
 };
 removeDuplicates(nums);
