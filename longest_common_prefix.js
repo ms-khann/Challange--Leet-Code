@@ -5,7 +5,7 @@
 // let strs = ["ca","c","bba","bacb","bcb"];
 // let strs = ["acc","aaa","aaba"];
 // let strs = ["ab", "a"];
-let strs = ["flower","flow","flight"];
+let strs = ["flower", "flow", "flight"];
 
 // var longestCommonPrefix = function(strs){
 //     strs.sort();
@@ -29,7 +29,9 @@ let strs = ["flower","flow","flight"];
 // }
 
 var longestCommonPrefix = function (strs) {
-    if (strs.length >= 200) {return '';}
+    if (strs.length >= 200) {
+        return "";
+    }
     strs.sort();
     let max_len;
     let prefix = [];
